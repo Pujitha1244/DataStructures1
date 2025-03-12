@@ -1,0 +1,24 @@
+// What is Backtracking:
+// ---------------------
+// Controlled Recursion + Modify state of the problem in place(pass by reference)
+
+// Blueprint:
+// ----------
+// pseudocode:
+
+
+// function helper(){
+// // Base case
+// if solved => save the solution/print and return
+
+// for choice in choices{
+
+//     if isValid choice{
+//         choose choice
+//         helper()
+//         revert choice
+//     } 
+// }
+// }
+// helper
+

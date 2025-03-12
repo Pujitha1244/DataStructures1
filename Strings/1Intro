@@ -1,0 +1,15 @@
+Strings are datatype like boolean, number etc
+they are similar to Data Structures so that we can Manipulate them
+Stored -> array of integers(Each Character)
+
+Big O analysis
+
+Read Character at given Index    :      T,s = O(1)
+Traverse                         :      T = O(n) S=O(1)
+Copy                             :      T,S = O(n)
+Append                           :      T = O(n)
+Concatinate                      :      T,S = O(n+m)
+
+
+
+Strings are Immutable(after create cannot modify) in JS, Python, Java

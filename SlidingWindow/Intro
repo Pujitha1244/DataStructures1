@@ -1,0 +1,5 @@
+Intro:
+Process is sequential data
+dynamic window: slides through the array or string
+
+suitable for problems where repeated computations on cantiguous subarray or substring

@@ -1,0 +1,27 @@
+deque datastructure stands for doubly ended queue
+
+Normal queue means FIFO
+A deque ( "double-ended queue") is a data structure that allows you to add and remove elements from both ends efficiently.
+
+
+Key Features of a Deque:
+Double-Ended: Elements can be added or removed from both the front (head) and the back (tail) of the deque.
+
+Dynamic Size: The size of the deque can grow or shrink as needed, similar to other dynamic data structures like lists or arrays.
+
+Efficient Operations: Adding or removing elements from either end of the deque typically takes constant time, O(1)
+
+
+
+Common Operations:
+------------------
+Add to Front: Insert an element at the front of the deque.
+Add to Back: Insert an element at the back of the deque.
+Remove from Front: Remove and return the element at the front of the deque.
+Remove from Back: Remove and return the element at the back of the deque.
+Peek Front: View the element at the front without removing it.
+Peek Back: View the element at the back without removing it.
+Is Empty: Check if the deque is empty.
+Size: Get the number of elements in the deque.
+
+We can implement this using Double linked list

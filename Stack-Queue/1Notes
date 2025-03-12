@@ -1,0 +1,23 @@
+What is a stack :(LIFO: Last In First Out) Stack is a linear dataStructure which models a real world stack having 2 operations push and pop
+
+Queue: First In First Out
+
+
+Stacks: implemented as dynamic arrays
+Push/ Pop/Peeking/Size : time= O(1), space: O(1) , Searching : O(n)
+
+When and where stacks are used
+1. Used by undo mechanisms in text editors
+2. Used in Compiler Syntax checking for matching Brackets and Brackets
+3. Can be used to a model a pile of books or plates
+4. DFS on graph
+
+EX: [{}]: Valid
+(()()): Valid
+[} : Invalid
+
+Queue: Implemented with Linked List
+Insertion: Enwueue
+Remove: DeQueue
+time, space: O(1)
+
