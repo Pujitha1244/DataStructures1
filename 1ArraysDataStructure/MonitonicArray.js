@@ -30,4 +30,4 @@ const checkMonotonic = function (array){
     return true;
 }
 
-checkMonotonic([9]);
+console.log(checkMonotonic([1,22,3,4,5,6,7]));
