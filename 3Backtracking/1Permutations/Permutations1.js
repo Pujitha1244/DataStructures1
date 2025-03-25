@@ -30,4 +30,4 @@ const permutations = (nums) => {
   return res;
 };
 
-console.log(permutations([1, 2, 3]));
+console.log(permutations([1, 4, 5]));
