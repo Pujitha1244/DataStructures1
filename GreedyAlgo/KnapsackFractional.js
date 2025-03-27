@@ -50,6 +50,7 @@ function knapsackGreedy(weights, values, capacity) {
       ratio: values[i] / weights[i],
     });
   }
+  console.log(items)
   items.sort((a, b) => b.ratio - a.ratio);
   console.log(items);
   let remainingWeight = capacity;
@@ -68,8 +69,8 @@ function knapsackGreedy(weights, values, capacity) {
 }
 
 // Example usage
-let weights = [10, 20, 30];
-let values = [60, 100, 120];
+let weights = [ 20, 30, 10];
+let values = [ 100, 120, 60];
 let capacity = 50;
 
 console.log(knapsackGreedy(weights, values, capacity)); // Output: 240
